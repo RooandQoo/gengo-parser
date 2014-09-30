@@ -10,7 +10,8 @@
 
 [[[@HELLOOOO]]]
 
-[[[Category:UI Control, Instruction:アプリのチュートリアルに入るので、柔らかめにお願いします. 次の URL でスクリーンショットを参照してください。 , Context:http://dropbox.com/public/screenshot1.png]]]
+[[[Category:UI Control, Instruction:アプリのチュートリアルに入るので、
+柔らかめにお願いします. 次の URL でスクリーンショットを参照してください。 , Context:http://dropbox.com/public/screenshot1.png]]]
 
 こんにちwa!
 

@@ -1,5 +1,6 @@
 open(ARGV[0]) { |f|
   parsing = false
+  ignore_mode = false
   key = ""
   body = Array.new
   f.each { |line|
@@ -9,11 +10,15 @@ open(ARGV[0]) { |f|
       if md = line.match(/(\/@\w+)/)
         puts '"' +  key + '" = "' + body.join('\n') + '";'
         parsing = false
-      else
-        unless line.match(/\[\[\[.*\]\]\]/)
-         body << line
-        end
       end
+      if line.match(/\[\[\[.*/)
+        ignore_mode = true
+      end
+      if line.match(/.*\]\]\]/)
+        ignore_mode = false
+        next
+      end
+      body << line unless ignore_mode
     else
       if md = line.match(/(@\w+)/)
         body = Array.new
