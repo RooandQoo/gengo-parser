@@ -1,8 +1,9 @@
 [[[@HELLO_WORLD]]]
 
-[[[Category:UI Control, Instruction:アプリのチュートリアルに入るので、柔らかめにお願いします. 次の URL でスクリーンショットを参照してください。 , Context:http://dropbox.com/public/screenshot1.png]]]
+[[[Category:UI Control, Instruction:"アプリ"のチュートリアルに入るので、柔らかめにお願いします. 次の URL でスクリーンショットを参照してください。 , Context:http://dropbox.com/public/screenshot1.png]]]
 
 こんにちは!
+お元気ですか？
 
 [[[/@HELLO_WORLD]]]
 
