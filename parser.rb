@@ -11,12 +11,12 @@ open(ARGV[0]) { |f|
       else
         unless line.match(/\[\[\[.*\]\]\]/)
          body = line
-         puts '"' +  key + '" = "' + body + '"'
+         puts '"' +  key + '" = "' + body + '";'
         end
       end
     else
       if md = line.match(/(@\w+)/)
-        key = md[0]
+        key = md[0].gsub("@", "")
         parsing = true
       end
     end
