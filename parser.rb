@@ -1,4 +1,4 @@
-open("./data2.txt") { |f|
+open(ARGV[0]) { |f|
   parsing = false
   key = ""
   body = ""
